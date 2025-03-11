@@ -4,13 +4,12 @@ import InvoiceStatus from '@/src/ui/invoices/status';
 import { formatDateToLocal, formatCurrency } from '@/src/lib/utils';
 import { fetchFilteredInvoices } from '@/src/lib/data';
 
-export default async function InvoicesTable({
-  query,
-  currentPage,
-}: {
+type InvoicesTableProps = {
   query: string;
   currentPage: number;
-}) {
+};
+
+export async function InvoicesTable({ query, currentPage }: InvoicesTableProps) {
   const invoices = await fetchFilteredInvoices(query, currentPage);
 
   return (
