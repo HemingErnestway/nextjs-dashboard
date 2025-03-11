@@ -1,7 +1,7 @@
 import { Pagination } from '@/src/ui/invoices/pagination';
 import { InvoicesTable } from '@/src/ui/invoices/table';
 import { CreateInvoice } from '@/src/ui/invoices/buttons';
-import { Search } from '@/src/ui/search';
+import Search from '@/src/ui/search';
 import { lusitana } from '@/src/ui/fonts';
 import { InvoicesTableSkeleton } from '@/src/ui/skeletons';
 import { fetchInvoicesPages } from '@/src/lib/data';
