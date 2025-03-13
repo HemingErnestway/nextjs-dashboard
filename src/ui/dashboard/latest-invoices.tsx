@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { ArrowPathIcon } from '@heroicons/react/24/outline';
 import { lusitana } from '@/src/ui/fonts';
 
-import { type LatestInvoice } from '@/src/lib/definitions';
 import { fetchLatestInvoices } from '@/src/lib/data';
 
 export async function LatestInvoices() {
