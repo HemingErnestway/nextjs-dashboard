@@ -1,5 +1,16 @@
-## Next.js App Router Course - Starter
+# Next.js Dashboard App
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+![Showcase image](https://github.com/HemingErnestway/nextjs-dashboard/blob/master/showcase.png?raw=true)
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## Stack:
+- Next.js (App Router)
+- React
+- Typescript
+- Tailwind 
+
+## Modern Technologies:
+- Fonts and images optimization 
+- Parallel data fetching
+- Streaming
+- Partial Prerendering 
+- Optimizing search with Debounce
